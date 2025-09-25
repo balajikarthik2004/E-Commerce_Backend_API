@@ -86,32 +86,31 @@ A complete MERN stack backend for e-commerce application with admin and customer
 
 text
 
-ecommerce-backend/
-
-├── config/
-│ └── database.js       # MongoDB connection
-├── controllers/
-│ ├── authController.js     # Authentication logic
-│ ├── productController.js # Product management
-│ └── userController.js # User management
-├── middleware/
-│ ├── auth.js # Authentication middleware
-│ ├── validation.js # Request validation
-│ └── errorHandler.js # Error handling
-├── models/
-│ ├── User.js # User schema
-│ └── Product.js # Product schema
-├── routes/
-│ ├── auth.js # Authentication routes
-│ ├── products.js # Product routes
-│ └── users.js # User routes
-├── utils/
-│ └── validation.js # Joi validation schemas
-├── docs/
-│ └── swagger.js # Swagger configuration
-├── .env # Environment variables
-├── server.js # Main server file
-└── README.md     # Project documentation
+    ecommerce-backend/
+    ├── config/
+    │ └── database.js       # MongoDB connection
+    ├── controllers/
+    │ ├── authController.js     # Authentication logic
+    │ ├── productController.js # Product management
+    │ └── userController.js # User management
+    ├── middleware/
+    │ ├── auth.js # Authentication middleware
+    │ ├── validation.js # Request validation
+    │ └── errorHandler.js # Error handling
+    ├── models/
+    │ ├── User.js # User schema
+    │ └── Product.js # Product schema
+    ├── routes/
+    │ ├── auth.js # Authentication routes
+    │ ├── products.js # Product routes
+    │ └── users.js # User routes
+    ├── utils/
+    │ └── validation.js # Joi validation schemas
+    ├── docs/
+    │ └── swagger.js # Swagger configuration
+    ├── .env # Environment variables
+    ├── server.js # Main server file
+    └── README.md     # Project documentation
 
 ## 🚀 Quick Start
 
